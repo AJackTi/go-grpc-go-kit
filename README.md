@@ -1,5 +1,6 @@
 ### Go + gRPC with Go kit
 
+```md
 .
 ├── cmd
 │   └── main.go          # main entrypoint file
@@ -12,6 +13,7 @@
 │   └── api.go           # contains the service's core business logic
 ├── transports
 │   └── grpc.go          # contains the gRPC transport
+```
 
 ```
 protoc --go_out=. --go-grpc_out=. pb/math.proto
